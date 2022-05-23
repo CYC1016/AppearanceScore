@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>颜值打分</title>
+</head>
+<body>
+<!--调用服务器预测接口的表单-->
+<form action="http://127.0.0.1:5000/pred" enctype="multipart/form-data" method="post">
+    选择要打分的图片：<input type="file" name="img"><br>
+    <input type="submit" value="打分">
+</form>
+</body>
+</html>
